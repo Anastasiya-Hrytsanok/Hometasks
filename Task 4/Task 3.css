@@ -1,0 +1,36 @@
+html, body{
+height: 100%;
+width: 100%;
+}
+div{
+    border: 2px solid lightslategrey;
+}
+.box {
+    width: 90%;
+    height: 15%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.header {
+    border-radius: 0 0 10px 10px;
+}
+.footer{
+    border-radius: 10px 10px 0 0;
+
+}
+.sidebar {
+    position: fixed;
+    top: 20%;
+    bottom: 20%;
+    width: 10%;
+    background-color: transparent;
+    height: 600px;
+}
+.central {
+    display: flex;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.central div{
+width: 50%;
+}

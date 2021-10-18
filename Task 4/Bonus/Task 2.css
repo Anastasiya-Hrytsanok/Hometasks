@@ -1,0 +1,70 @@
+body{
+    margin-top: 0%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+}
+.main_paige{
+    color: beige;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 720px;
+    width: auto;
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url("voda_ruka_more_gorizont_118181_1280x720.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    font-size: 40px;
+    margin-bottom: 3px;
+    text-align: center;
+}
+p{
+    margin-top: 3px;
+    text-align: center;
+}
+button{
+    margin-top: 30px;
+    background-color: rgba(0, 0, 0, 0);
+    color: whitesmoke;
+    height: 30px;
+    width: 100px;
+    border-color: whitesmoke;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: rgb(248, 246, 246, 0.4);
+}
+.content1, .content2, .foot1, .foot2, .foot3{
+    padding: 10px;
+}
+.content1{
+    background-color: rgb(85, 99, 138);
+    color: whitesmoke;
+    text-align: center;
+}
+.content2{
+    background-color: whitesmoke;
+    color: rgb(85, 99, 138);
+    text-align: center;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.foot1, .foot3{
+    background-color: rgb(85, 99, 138);
+    color: whitesmoke;
+}
+.foot2{
+    color: rgb(85, 99, 138);
+}

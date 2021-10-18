@@ -1,0 +1,137 @@
+body{
+    margin: 0%;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+h1, h4, h5, h2, h3, p{
+    margin: 0;
+}
+main{
+    width: 100%;
+}
+.greeting{
+    display: flex;
+    flex-direction: column;
+    background-image: url("./back.png");
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    background-color: rgba(3, 3, 3, 0.5);
+}
+.welcome {
+    margin-bottom: 35px;
+    margin-top: 70px;
+}
+.info{
+    margin: 0 25% 20px 25%;
+}
+.read_more{
+    margin-bottom: 80px;
+    background-color: rgb(64, 64, 65);
+    color: white;
+    border-color: rgb(160, 156, 156);
+    border-radius: 5px;
+    width: 100px;
+    height: 35px;
+}
+.web_and_app{
+    text-align: center;
+    background-color: rgb(228, 226, 226);
+    padding-top: 20px;
+}
+.web_and_app__info{
+    display: flex;
+    justify-content: center;
+}
+.web_and_app__info p{
+    width: 400px;
+    margin: 0 20px 20px 20px;
+}
+.web_and_app__web{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.types{
+    background-color: rgb(66, 65, 65);
+    justify-content: center;
+    display: flex;
+    padding: 20px 0;
+}
+.types__panel{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 200px;
+    text-align: center;
+}
+.types__panel__img{
+    height: 100px;
+    width: auto;
+    margin-bottom: 30px;
+}
+.types__content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 670px;
+}
+.types__panel__info{
+    margin: 30px 10px 10px 10px;
+}
+.tagline{
+    text-align: center;
+    background-color: whitesmoke;
+    padding: 30px 0 30px 0;
+}
+.tagline__name{
+    margin-bottom: 30px;
+}
+.tagline__info{
+    margin: 0 15%;
+}
+.company_info{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.company_info__contact{
+    background-color: rgb(43, 123, 160);
+}
+.company_info__about{
+    background-color: rgb(66, 65, 65);
+}
+.company_info__contact, .company_info__about{
+    color: white;
+    text-align: center;
+    padding: 30px 10px;
+    width: 50%;
+}
+.company_info__about__name, .company_info__contact__name{
+    margin-bottom: 30px;
+}
+.company_info__contact__mail{
+    margin-top: 20px;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+.footer div{
+    width: 50%;
+    text-align: center;
+    margin: 15px 0;
+}
+.footer a{
+    color: rgb(84, 106, 226);
+}
