@@ -39,6 +39,7 @@ button{
     margin-left: 42px;
     font-weight: bold;
 }
+/*не БЭМ*/
 a:hover{
     color: #34547A;
 }
@@ -52,10 +53,12 @@ a:hover{
 .header__content__info{
     margin-left: 130px;
 }
+/*не БЭМ*/
 .header__content__info__grey{
     margin-top: 60px;
     margin-bottom: 60px;
 }
+/*не БЭМ*/
 .me{
     text-align: center;
     padding: 119px 17% 100px 17%;
@@ -72,12 +75,14 @@ a:hover{
     display: flex;
     flex-direction: row;
 }
+/*не БЭМ*/
 .project__point__text{
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     margin-left: 20px;
 }
+/*не БЭМ*/
 h3{
     margin-bottom: 10px;
 }
@@ -149,11 +154,13 @@ h3{
     display: flex;
     flex-direction: row;
 }
+/*не БЭМ*/
 .pictures__row>div{
     display: flex;
     height: auto;
     width: 25%;
 }
+/*не БЭМ*/
 .pictures__row img{
     width: 100%;
     height: auto;
@@ -163,6 +170,7 @@ h3{
 .pictures__row__combo{
     justify-content: center;
 }
+/*не БЭМ*/
 .pictures__row__combo__view{
     position: absolute;
     display: flex;
@@ -173,6 +181,7 @@ h3{
     display: flex;
     justify-content: space-between;
 }
+/*не БЭМ*/
 .pictures__row a:hover{
 	opacity: 0.2;
     z-index: auto;
@@ -203,6 +212,7 @@ h3{
     height: 50px;
     width: 45%;
 }
+/*не БЭМ*/
 #message{
     border-style: none;
     width: 100%;
